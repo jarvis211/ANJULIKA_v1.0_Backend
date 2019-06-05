@@ -5,7 +5,7 @@
   "license": "MIT",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon src/server.js localhost 8080"
+    "start": "nodemon --experimental-modules src/server.js localhost 8080"
   },
   "dependencies": {
     "bcrypt": "3.0.6",
